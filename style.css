@@ -1,0 +1,181 @@
+#m1 {
+
+    border-radius: 20px;
+    border-color: rgb(210, 210, 209);
+    border-style: solid;
+    border-width: 4px;
+    background-color: rgb(254, 251, 203);
+    color: #ff8e00;
+}
+
+
+
+#c1 {
+    border-radius: 20px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+
+}
+
+body  {
+    background-image: url("est.png");
+    background-attachment: fixed;
+    background-color: #333352
+  }
+
+#f2 {
+    font-family: "Sofia", sans-serif;
+  }
+
+  #f1 {
+    
+  }
+
+  
+
+
+  * {
+  box-sizing: border-box;
+}
+
+/* Style the header */
+header {
+  font-size: 35px;
+  background-image: url("nvf.png");
+  background-position:;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color:  rgb(51, 51, 82, 50%);
+}
+
+
+
+.hd {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    padding: 50px
+    flex: 50%;
+    width: 100%;
+    height: 60%;
+    justify-content: center;
+}
+
+@media (max-width: 700px) {
+  header {
+    font-size: 25px;
+  }
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 29.5%;
+  background: #ccc;
+  padding: 20px;
+  align-items: ;
+}
+
+.g {
+  padding: 20px;
+  width: 30%;
+  height: 300px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  border-radius: 20px;
+}
+
+article {
+  float: right;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: black;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.flc {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 30px;
+  text-align: center
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+    justify-content: ;
+    
+  }
+  
+  .fl {
+    background-color: rgb(125, 137, 148)
+    padding: 50px;
+    flex: 50%;
+  }
+  
+
+  .div {
+  width: 200px;
+  height: 100px;
+  border-width: 2px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  display: inline-block
+  max-width: 200px;
+  display: ;
+}
+
+@media (min-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
+  
+  @media (max-width: 700px) {
+    .flc {
+      flex-direction: column;
+    }
+  }
+
+.mb {
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 2px;
+    width: 100%
+}
+
+
+
+
+  
