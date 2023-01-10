@@ -1,38 +1,44 @@
 #m1 {
 
-    border-radius: 20px;
+    border-radius: 70px 6px;
     border-color: rgb(210, 210, 209);
     border-style: solid;
-    border-width: 4px;
+    border-width: 2px;
     background-color: rgb(254, 251, 203);
-    color: #ff8e00;
+    color: #8d7e6b;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    box-shadow: 10px 10px 5px rgba(91, 112, 119, 0.644);
 }
 
-
+.cx {
+  display: inline-table;
+  border-width: 2px;
+  border-color: blue;
+  border-style: solid;
+}
 
 #c1 {
     border-radius: 20px;
-    border-color: black;
+    border-color: rgb(210, 210, 209);
     border-style: solid;
     border-width: 1px;
 
 }
 
 body  {
-    background-image: url("est.png");
+    background-image: linear-gradient(#333352 , rgba(255, 230, 0, 0.445));
     background-attachment: fixed;
-    background-color: #333352
+    background-color: #333352;
   }
+
+.body {
+  background-image: url("est.png");
+  background-attachment:fixed;
+}
 
 #f2 {
     font-family: "Sofia", sans-serif;
   }
-
-  #f1 {
-    
-  }
-
-  
 
 
   * {
@@ -73,7 +79,7 @@ header {
 nav {
   float: left;
   width: 29.5%;
-  background: #ccc;
+  background: rgba(137, 189, 169, 0.226);
   padding: 20px;
   align-items: ;
 }
@@ -95,7 +101,8 @@ article {
   float: right;
   padding: 20px;
   width: 70%;
-  background-color: #f1f1f1
+  background-color: rgba(74, 82, 83, 0.445);
+  display: inline-block;
 }
 
 /* Clear floats after the columns */
@@ -124,9 +131,10 @@ footer {
 .flc {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content:;
   font-size: 30px;
-  text-align: center
+  text-align: center;
+  position: relative;
 }
 
 .flex-container {
@@ -151,12 +159,13 @@ footer {
   border-width: 2px;
   border-color: rgb(0, 0, 0);
   border-style: solid;
-  display: inline-block
+  display: inline-block;
   max-width: 200px;
   display: ;
+
 }
 
-@media (min-width: 800px) {
+@media (min-width: 600px) {
     .flex-container {
       flex-direction: column;
     }
@@ -172,10 +181,52 @@ footer {
     border-color: rgb(0, 0, 0);
     border-style: solid;
     border-width: 2px;
-    width: 100%
+    width: 100%;
+    position: relative;
 }
 
 
 
 
+.fmr {
+  border-radius: 10px;
+}
+
+div.fmr {
+  border: 1px solid #ccc;
+}
+
+div.fmr:hover {
+  border: 1px solid #777;
+}
+
+div.fmr img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.rmfa {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .rmfa {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .rmfa {
+    width: 100%;
+  }
+}
   
