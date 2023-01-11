@@ -102,8 +102,10 @@ article {
   float: right;
   padding: 20px;
   width: 70%;
+  height: 500px;
   background-color: rgba(74, 82, 83, 0.445);
   display: inline-block;
+  overflow: scroll;
 }
 
 /* Clear floats after the columns */
@@ -191,6 +193,13 @@ footer {
 
 .fmr {
   border-radius: 10px;
+}
+
+#o {
+  border-radius: 20px;
+  border-style: solid;
+  border: 1px;
+  border-color: black;
 }
 
 div.fmr {
