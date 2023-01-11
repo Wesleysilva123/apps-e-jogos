@@ -8,6 +8,7 @@
     color: #8d7e6b;
     text-shadow: 2px 2px rgb(0, 0, 0);
     box-shadow: 10px 10px 5px rgba(91, 112, 119, 0.644);
+    border-image: url("bdn.png");
 }
 
 .cx {
